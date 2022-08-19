@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do list</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="navbar navbar-dark bgcolor">
+        <div class="container-fluid">            
+            <a href="#" class="navbar-brand">Todo List</a>
+        </div>
+    </div>
+    <div class="container mt-5" style="max-width: 700px;">
+        <div class="input-group">
+            <input type="text" id="add" class="form-control"> 
+            <button class="btn btn-outline-danger ms-2">
+                <i class="fas fa-plus-circle"></i></button>
+        </div>
+        <div class="row flex-column flex-lg-row">
+            <div class="col">
+                        <ul id="todo" class="list-group mt-4">
+                            <li class="list-group-item text-light docolor">Todo</li>
+                        </ul>
+            </div>
+            <div class="col"> 
+                    <ul id="done" class="list-group mt-4">
+                        <li class="list-group-item donecolor text-dark">Done
+                            <a href="#" class="float-end text-dark" id="clear">Clear</a>
+                        </li>                        
+                    </ul>
+            </div>
+    </div>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+</html>

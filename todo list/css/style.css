@@ -1,0 +1,12 @@
+body{
+    background: linear-gradient(90deg, #ecdede, #e9b5b5 );
+}
+.bgcolor {
+    background: #4a7986;
+}
+.docolor{
+    background: #F05454;
+}
+.donecolor{
+    background: #a6dadb;
+} 
